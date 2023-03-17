@@ -20,29 +20,41 @@ html,body{
 }
 
 
+
 .tablas{
     width: 50%;
 }
 
 table{
-    border: 1px solid;
+    border-collapse: collapse; margin: 25px 0; font-size: 1em; font-family: sans-serif; min-width: 450px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: auto;
 }
 
 th{
-    border: 1px solid;
+    padding: 12px 15px;
+    border-bottom: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddddd;
 }
 
 tr{
-    border: 1px solid;
+    background-color: #980081; color: #ffffff; text-align: middle; 
+    border-bottom: 2px solid #dddddd;
 }
 
-td{
-    border: 1px solid;
-}
+
 
 td{
-    border: 1px solid;
+    padding: 12px 15px;
+    border-bottom: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddddd;
+    background-color: #ffffff;
+    color: black;
 }
+
+
+
 
 
 .form{
@@ -98,4 +110,12 @@ button:hover{
 
 label{
     font-size: 14px;
+}
+
+.buscador{
+    padding-top: 50px;
+}
+
+.buscador button{
+    width: 50px;
 }

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url(https://us.123rf.com/450wm/haveseen/haveseen1604/haveseen160400487/55539171-fondo-de-madera-r%C3%BAstico-negro-oscuro.jpg);
+}
+
+.caja{
+    width: 40vw;
+    height: 50vh;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FFF;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+.img_parrafo{
+    padding-top: 20px;
+    display: flex;
+}
+
+.parrafos p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.cumpleaños{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/580/196/non_2x/birthday-card-with-elements-happy-birthday-background-balloon-gift-box-background-free-vector.jpg);
+
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid;
+}  
+
+.cumpleaños p{
+    display: block;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+button{
+    background-color: red;
+    width: 80px;
+    height: 40px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
